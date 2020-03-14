@@ -1,0 +1,40 @@
+= Asciidoc mit Syntaxhighlight
+:page-layout: post
+
+
+Demonstriert die Fähigkeit deklarativ Graphiken zu erzeugen.
+
+== Diagram Sample
+
+[graphviz,dot-example,svg]
+....
+digraph g {
+    a -> b
+    b -> c
+    c -> d
+    d -> a
+}
+....
+
+== Ditaa
+
+[ditaa,memory,png]
+....
+
+      +--------+
+   0  |        |  <- start
+      +--------+
+   1  |        |  <- q  scans from start to end
+      +--------+
+      :  ..... |
+      +--------+
+      |        |  <- end
+      +--------+  <-+
+      |        |    |
+      +--------+    | rest of the
+      :  ..... |    | allocated memory
+      +--------+    |
+  n   |        |    |
+      +--------+  <-+
+....
+

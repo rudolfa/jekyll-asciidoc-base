@@ -1,0 +1,5 @@
+= Asciidoc Dokument mit einfacher Präambel
+Andreas Rudolf
+2020-03-14
+
+Ein einfacher Text ohne Bild
