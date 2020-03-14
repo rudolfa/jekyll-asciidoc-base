@@ -40,11 +40,8 @@ asciidoctor:
   base_dir: :docdir 
   safe: unsafe
   attributes:
-   imagesdir: /images
+    imagesdir: /images
 
-asciidoctor:
-  attributes:
-  - stem 
 
 
 # Exclude from processing.
