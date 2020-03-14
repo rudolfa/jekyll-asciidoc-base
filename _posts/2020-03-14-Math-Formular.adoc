@@ -1,4 +1,4 @@
 = Mathematische Formeln in einm Blogpost
-:stem:
+
 
 A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].

@@ -6,6 +6,7 @@ GEM
     asciidoctor (2.0.10)
     asciidoctor-diagram (2.0.1)
       asciidoctor (>= 1.5.7, < 3.x)
+    coderay (1.1.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     em-websocket (0.5.1)
@@ -55,9 +56,12 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    multi_json (1.14.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.3)
+    pygments.rb (1.1.2)
+      multi_json (>= 1.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -80,10 +84,12 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor-diagram (~> 2.0)
+  coderay (~> 1.1.0)
   jekyll (~> 4.0.0)
   jekyll-asciidoc
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  pygments.rb (~> 1.1.2)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

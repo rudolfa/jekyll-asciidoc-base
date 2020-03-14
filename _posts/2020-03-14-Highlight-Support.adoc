@@ -1,0 +1,22 @@
+= Asciidoc Highlight Support
+
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using {url-asciidoctor}[Asciidoctor].
+
+[source,ruby]
+puts "Hello, World!"
+
+[source,java]
+----
+System.println("Hello World")
+----
+
+[source,bash]
+--
+#!/bin/sh
+# Deploy web content
+
+rsync -rv ~/dev/admin/web/output/* rpi:/var/www
+
+--

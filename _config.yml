@@ -41,6 +41,11 @@ asciidoctor:
   safe: unsafe
   attributes:
     imagesdir: /images
+    idprefix: _
+    source-highlighter: pygments
+    pygments-css: class
+    pygments-stylesheet: css/pygment.css
+    stem: ''
 
 
 
