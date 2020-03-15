@@ -46,6 +46,7 @@ asciidoctor:
     pygments-css: class
     pygments-stylesheet: css/pygment.css
     stem: ''
+    icons: font
 
 
 

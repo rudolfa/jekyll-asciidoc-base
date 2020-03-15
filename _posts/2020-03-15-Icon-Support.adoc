@@ -1,0 +1,3 @@
+= Enable Font-based Admonition and Inline Icons
+
+NOTE: Ein Hinweis, der mit einem Icon eingeleitet werden sollte.
