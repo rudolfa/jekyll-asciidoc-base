@@ -1,0 +1,43 @@
+= Organisation der Artikel
+
+Es gibt drei mögliche Orte um seine Artikel bei jekyll abzulegen.
+
+. Sammlungen https://jekyllrb.com/docs/collections/[Collections]
+. Seiten https://jekyllrb.com/docs/pages/[Pages]
+. Einträge https://jekyllrb.com/docs/posts/[Posts]
+
+Sammlungen:: Diese Artikel haben einen logischen Zusammenhang. 
+Sie Sammlungen können nicht weiter unterteilt werden.
++
+--
+.Beispiele
+* Produkte
+* Bücher
+--
+Seiten:: Eine Seite hat keinen zeitlichen Bezug. 
+Die können allerdings in Unterordner organisiert werden.
+Einträge:: Haben ein Datum im Namen (Format: yyyy-MM-dd) und verändern sich über die Zeit nicht.
+
+Eine Hilfe, welchen Ort man wählt bietet folgende Graphik aus einem gefundenen https://ben.balter.com/2015/02/20/jekyll-collections/[Blogeintrag].
+[ditaa,png]
+....
++-------------------------------------+         +----------------+
+| Can the things be logically grouped?|---No--->|    Use pages   |
++-------------------------------------+         +----------------+
+                |
+               Yes
+                |
+                V
++-------------------------------------+         +----------------+
+|      Are they grouped by date?      |---No--->|Use a collection|
++-------------------------------------+         +----------------+
+                |
+               Yes
+                |
+                V
++-------------------------------------+
+|            Use posts                |
++-------------------------------------+
+....
+
+
