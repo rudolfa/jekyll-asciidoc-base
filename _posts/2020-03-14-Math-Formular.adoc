@@ -1,4 +1,5 @@
-= Mathematische Formeln in einm Blogpost
+= Mathematische Formeln in einem Blogeintrag
+:page-tag: mathjax
 
 
 A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].

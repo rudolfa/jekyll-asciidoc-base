@@ -1,13 +1,13 @@
 = Organisation der Artikel
 
-Es gibt drei mögliche Orte um seine Artikel bei jekyll abzulegen.
+Es gibt drei mögliche Typen von Artikeln bei jekyll.
 
 . Sammlungen https://jekyllrb.com/docs/collections/[Collections]
 . Seiten https://jekyllrb.com/docs/pages/[Pages]
 . Einträge https://jekyllrb.com/docs/posts/[Posts]
 
 Sammlungen:: Diese Artikel haben einen logischen Zusammenhang. 
-Sie Sammlungen können nicht weiter unterteilt werden.
+Die Sammlungen können nicht weiter unterteilt werden.
 +
 --
 .Beispiele
@@ -18,7 +18,7 @@ Seiten:: Eine Seite hat keinen zeitlichen Bezug.
 Die können allerdings in Unterordner organisiert werden.
 Einträge:: Haben ein Datum im Namen (Format: yyyy-MM-dd) und verändern sich über die Zeit nicht.
 
-Eine Hilfe, welchen Ort man wählt bietet folgende Graphik aus einem gefundenen https://ben.balter.com/2015/02/20/jekyll-collections/[Blogeintrag].
+Eine Hilfe, welchen Typ man wählt bietet folgende Graphik aus einem gefundenen https://ben.balter.com/2015/02/20/jekyll-collections/[Blogbeitrag].
 [ditaa,png]
 ....
 +-------------------------------------+         +----------------+
