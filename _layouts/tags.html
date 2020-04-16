@@ -4,9 +4,16 @@ layout: default
 
 {{content}}
 
-<ul>
+{% assign tags = '' | split: ',' %}
 {% for tag in site.tags %}
     {% assign tagname = tag[0] | slugify %}
-    <li><a href="{{relative_url }}/tag/{{ tagname }}">{{tagname}}</a></li>
-{% endfor %}    
+    {% assign tagname = tagname | append: " (" | append: tag[1].size | append: ")" %}
+    {% assign tags = tags | push: tagname  %}
+{% endfor %}
+{% assign sorted_tags = tags | sort %}
+
+<ul>
+    {% for tag in sorted_tags %}
+       <li><a href="{{relative_url }}/tag/{{ tag }}">{{tag}}</a></li>
+    {% endfor %}
 </ul>

@@ -1,4 +1,5 @@
 = Organisation der Artikel
+:page-tag: jekyll 
 
 Es gibt drei mögliche Typen von Artikeln bei jekyll.
 
